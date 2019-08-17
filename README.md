@@ -1,7 +1,7 @@
 # raspberry-tips
 Raspberry tips to easy development
 
-## enabling WiFi and SSH
+## Enabling WiFi and SSH
 
 Source: https://desertbot.io/blog/headless-raspberry-pi-3-bplus-ssh-wifi-setup
 
