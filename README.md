@@ -34,15 +34,15 @@ sync and write
 
 ## Disable bluetooth
 
-	- /boot/config.txt
+Edit and add to the file /boot/config.txt
 
    	dtoverlay=pi3-disable-bt
-		enable_uart=1
+	enable_uart=1
 
-	- disable bluetooth
+Disable bluetooth
 
-		sudo systemctl disable hciuart
+	sudo systemctl disable hciuart
 
-	- remove references to serial0 from cmdline.txt (example below)
+Edit and remove references to serial0 from cmdline.txt (example below)
 
-		dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p7 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait splash plymouth.ignore-serial-consoles
+	dwc_otg.lpm_enable=0 console=tty1 root=/dev/mmcblk0p7 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait splash plymouth.ignore-serial-consoles
