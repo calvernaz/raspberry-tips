@@ -18,13 +18,13 @@ Source: https://desertbot.io/blog/headless-raspberry-pi-3-bplus-ssh-wifi-setup
   edit `wpa.supplicant.conf`
 
 	country=EU
-		ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-		update_config=1
+	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+	update_config=1
 
-		network={
-    	ssid="NETWORK-NAME"
-    	psk="NETWORK-PASSWORD"
-		}
+	network={
+    	  ssid="NETWORK-NAME"
+    	  psk="NETWORK-PASSWORD"
+	}
 	
 
 sync and write
